@@ -1,0 +1,209 @@
+body{
+    background-color:rgb(16, 15, 15);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+
+
+.flex{
+    column-gap: 26px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 35px;
+}
+
+.br{
+    border-radius: 9px;
+}
+.border{
+    border: 1px solid red;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(29, 28, 28);
+}
+
+.left{
+    width: 30%;
+    background-color: rgb(29, 28, 28);
+    padding: 12px;
+}
+.title{
+    color: white;
+    position: relative;
+    background-color: rgb(31, 30, 30);
+    border-radius: 1vw;
+}
+.section h3{
+    margin: 2px;
+    padding: 10px;
+    font-size: 16px;
+    font-family:monospace;
+}
+
+.image-container{
+    width: 100%;
+    height: 45vh;
+    border-radius: 1vw;
+    overflow: hidden;
+    border: 1px solid red;
+    margin-bottom: 1vw;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+input{
+    width: 100%;
+}
+
+.controls{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.controls h4{
+    text-align: center;
+    width: 10%;
+    font-size: 1.4vw;
+    padding: 0.3vw 1vw;
+}
+.controls h4:hover{
+    background-color: rgb(57, 56, 56);
+    cursor: pointer;
+}
+.song-title{
+    font-size: 1.2vw;
+    width: 100%;
+    margin-top: -2vw;
+    text-align: center;
+}
+
+
+.section h3:hover{
+    background-color: rgb(57, 56, 56);
+    cursor: pointer;
+}
+
+.Settings{
+    position: absolute;
+    top:48px;
+    right: 35px;
+}
+
+.right{
+    width: 70%;
+    height: 80vh;
+    background-color: rgb(43, 42, 42);
+    padding: 12px;
+}
+
+.navbar{
+    display: flex;
+    align-items: baseline;
+    gap:20px;
+    font-size: 16px;
+}
+.navbar li:hover{
+   
+    color: rgb(214, 206, 206);
+    transition: .1s ease-in;
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(245, 148, 51);
+    border-radius: 7px;
+    padding: 9px;
+    margin-left: 35px;
+    border:rgb(245, 148, 51);
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(249, 139, 28);
+    padding: 10px;
+    transition: .1s ease-in;
+}
+
+.title2{
+    display: flex;
+    justify-content: space-between;
+}
+
+myclo{
+    color:rgb(245, 148, 51); 
+}
+
+
+ul{
+    list-style-type:none;
+    
+}
+
+.tableContainer{
+   
+    height: 62vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.tableContainer::-webkit-scrollbar{
+    border-radius: 1px;
+}
+.row{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.row:hover{
+    background-color: rgb(57, 56, 56);
+    cursor: pointer;
+}
+ .fixwid{
+    width: 30vw;
+ }
+
+ .row img{
+    
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid red;
+    object-fit: cover;
+    border-radius: 0.2vw;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
